@@ -6,7 +6,7 @@ function App(): React.JSX.Element {
     const rectangleStyle = {
         width: "100px",
         height: "50px",
-        backgroundColor: "#fb6161",
+        backgroundColor: "red",
     };
 
     return (
@@ -27,10 +27,10 @@ function App(): React.JSX.Element {
                         <h1>New heading</h1>
                         <Button
                             onClick={() => {
-                                console.log("I am logged");
+                                console.log("Hello World!");
                             }}
                         >
-                            Click Me
+                            Log Hello World
                         </Button>
                         <img
                             src="https://upload.wikimedia.org/wikipedia/commons/0/08/Corl0207_%2828225976491%29.jpg"
