@@ -1,6 +1,5 @@
 import React from "react";
 import "./App.css";
-import "./Rectangle.css";
 import { Button, Col, Container, Row } from "react-bootstrap";
 
 function App(): React.JSX.Element {
