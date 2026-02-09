@@ -37,3 +37,9 @@
         transform: rotate(360deg);
     }
 }
+
+.my-rectangle {
+    width: 100px;
+    height: 50px;
+    background-color: #fb6161;
+}
