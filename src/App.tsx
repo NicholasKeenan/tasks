@@ -11,7 +11,7 @@ function App(): React.JSX.Element {
 
             <Container>
                 <Row>
-                    <Col>First Collumn.</Col>
+                    <Col>First Collumn. Stuff and things</Col>
                     <Col>
                         Second column.
                         <h1>New heading</h1>
