@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import { Button } from "react-bootstrap";
+import { Button, Container, Row } from "react-bootstrap";
 
 function App(): React.JSX.Element {
     return (
@@ -8,33 +8,38 @@ function App(): React.JSX.Element {
             <header className="App-header">
                 UM COS420 with React Hooks and TypeScript
             </header>
-            <h1>New heading</h1>
 
-            <Button
-                onClick={() => {
-                    console.log("I am logged");
-                }}
-            >
-                Click Me
-            </Button>
+            <Container>
+                <Row>
+                    <h1>New heading</h1>
 
-            <img
-                src="https://upload.wikimedia.org/wikipedia/commons/0/08/Corl0207_%2828225976491%29.jpg"
-                alt="A dope shark"
-            />
+                    <Button
+                        onClick={() => {
+                            console.log("I am logged");
+                        }}
+                    >
+                        Click Me
+                    </Button>
 
-            <h2>Why this shark is so cool</h2>
+                    <img
+                        src="https://upload.wikimedia.org/wikipedia/commons/0/08/Corl0207_%2828225976491%29.jpg"
+                        alt="A dope shark"
+                    />
 
-            <ol>
-                <li>1. Just look at it</li>
-                <li>2. It is super fast</li>
-                <li>3. It has probably never killed anyone</li>
-            </ol>
+                    <h2>Why this shark is so cool</h2>
 
-            <p>
-                Edit <code>src/App.tsx</code> and save. This page will
-                automatically reload. Nicholas Keenan Hello World
-            </p>
+                    <ol>
+                        <li>1. Just look at it</li>
+                        <li>2. It is super fast</li>
+                        <li>3. It has probably never killed anyone</li>
+                    </ol>
+
+                    <p>
+                        Edit <code>src/App.tsx</code> and save. This page will
+                        automatically reload. Nicholas Keenan Hello World
+                    </p>
+                </Row>
+            </Container>
         </div>
     );
 }
