@@ -14,6 +14,14 @@ function App(): React.JSX.Element {
                 alt="A dope shark"
             />
 
+            <h2>Why this shark is so cool</h2>
+
+            <ol>
+                <li>1. Just look at it</li>
+                <li>2. It is super fast</li>
+                <li>3. It has probably never killed anyone</li>
+            </ol>
+
             <p>
                 Edit <code>src/App.tsx</code> and save. This page will
                 automatically reload. Nicholas Keenan Hello World
