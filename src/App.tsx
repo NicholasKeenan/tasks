@@ -1,8 +1,15 @@
 import React from "react";
 import "./App.css";
+import "./Rectangle.css";
 import { Button, Col, Container, Row } from "react-bootstrap";
 
 function App(): React.JSX.Element {
+    const rectangleStyle = {
+        width: "100px",
+        height: "50px",
+        backgroundColor: "#fb6161",
+    };
+
     return (
         <div className="App">
             <header className="App-header">
@@ -11,9 +18,13 @@ function App(): React.JSX.Element {
 
             <Container>
                 <Row>
-                    <Col>First Collumn. Stuff and things</Col>
+                    <Col>
+                        First Collumn. Stuff and things
+                        <div style={rectangleStyle}></div>
+                    </Col>
                     <Col>
                         Second column.
+                        <div style={rectangleStyle}></div>
                         <h1>New heading</h1>
                         <Button
                             onClick={() => {
