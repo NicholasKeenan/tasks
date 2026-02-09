@@ -1,5 +1,6 @@
 import React from "react";
 import "./App.css";
+import { Button } from "react-bootstrap";
 
 function App(): React.JSX.Element {
     return (
@@ -8,6 +9,14 @@ function App(): React.JSX.Element {
                 UM COS420 with React Hooks and TypeScript
             </header>
             <h1>New heading</h1>
+
+            <Button
+                onClick={() => {
+                    console.log("I am logged");
+                }}
+            >
+                Click Me
+            </Button>
 
             <img
                 src="https://upload.wikimedia.org/wikipedia/commons/0/08/Corl0207_%2828225976491%29.jpg"
